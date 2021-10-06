@@ -1,8 +1,8 @@
 {
-  "name": "@hexlet/code",
+  "name": "frontend-project-lvl1",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "type": "module",
+  "main": "bin/brain-games.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,14 @@
   "bugs": {
     "url": "https://github.com/Rrudger/frontend-project-lvl1/issues"
   },
-  "homepage": "https://github.com/Rrudger/frontend-project-lvl1#readme"
+  "homepage": "https://github.com/Rrudger/frontend-project-lvl1#readme",
+  "bin": {
+    "brain-games": "bin/brain-games.js"
+  },
+  "description": "",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.2"
+  }
 }
