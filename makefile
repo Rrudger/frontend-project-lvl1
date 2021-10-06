@@ -9,7 +9,7 @@ install-deps:
 lint:
 	npx eslint .
 
-brain-games:
+games: #Поменять на brain-games
 	node bin/brain-games.js
 
 publish:
