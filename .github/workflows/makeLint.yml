@@ -4,6 +4,8 @@ jobs:
   my-job:
     runs-on: ubuntu-latest
     steps:
-      - name: make lint
+      - name: install lint
         run: npm install eslint
+
+      - name: make lint
         run: npx eslint bin/brain-games.js
