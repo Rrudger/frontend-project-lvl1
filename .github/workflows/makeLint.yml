@@ -5,7 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: install lint
-        run: npm install eslint
-
-      - name: make lint
-        run: eslint -v
+        run: npm ci
