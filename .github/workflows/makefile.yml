@@ -12,11 +12,11 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-    - name: configure
+      - name: configure
       run: makefile
 
-    - name: Install dependencies
+      - name: Install dependencies
       run: make
 
-    - name: Run check
+      - name: Run check
       run: make lint
