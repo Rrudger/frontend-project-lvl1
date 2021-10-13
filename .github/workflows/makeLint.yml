@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: install lint
-        run: node /bin/brain-games.js
+        run: node frontend-project-lvl1/bin/brain-games.js
