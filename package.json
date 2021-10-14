@@ -17,7 +17,8 @@
   },
   "homepage": "https://github.com/Rrudger/frontend-project-lvl1#readme",
   "bin": {
-    "brain-games": "bin/brain-games.js"
+    "brain-games": "bin/brain-games.js",
+    "brain-even": "bin/brain-even.js"
   },
   "description": "",
   "devDependencies": {

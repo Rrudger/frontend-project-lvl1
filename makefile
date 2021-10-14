@@ -12,5 +12,8 @@ lint:
 games: #Поменять на brain-games
 	node bin/brain-games.js
 
+brain-even: #Поменять на brain-even
+	node bin/brain-even.js
+
 publish:
 	npm publish --dry-run
