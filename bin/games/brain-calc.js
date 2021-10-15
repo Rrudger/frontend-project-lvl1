@@ -1,6 +1,5 @@
 import game from '../../src/index.js';
 import createNum from '../../src/createNum.js';
-import helloFunc from '../../src/cli.js';
 
 const signs = ['+', '*', '-', '/'];
 function makeQuestion() {
@@ -42,6 +41,5 @@ function makeQuestion() {
   return [`${num1} ${sign} ${num2}`, String(rightAnwser)];
 }
 
-const userName = helloFunc();
-console.log('What is the result of the expression?');
-game(userName, makeQuestion);
+const greetings = 'What is the result of the expression?';
+game(greetings, makeQuestion);

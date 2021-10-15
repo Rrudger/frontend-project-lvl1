@@ -10,3 +10,4 @@
  Asciinema brain-calc: https://asciinema.org/a/QEFpizaTKEp3mMOPM1RbyCroJ
  Asciinema brain-gcd: https://asciinema.org/a/XvMQPYeoyy6nyxAXjPi5DGP4X
  Asciinema brain-gcd: https://asciinema.org/a/5P7JONpdVkQAGf16kExQJK95U
+ Asciinema brain-prime: https://asciinema.org/a/4H8OivOEGunxumZeVP35aJknK

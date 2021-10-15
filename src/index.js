@@ -1,6 +1,9 @@
 import readlineSync from 'readline-sync';
+import helloFunc from './cli.js';
 
-const game = (userName, gameFunc) => {
+const game = (greetings, gameFunc) => {
+  const userName = helloFunc();
+  console.log(greetings);
   let count = 0;
   while (count < 3) {
     const [question, rightAnwser] = gameFunc();

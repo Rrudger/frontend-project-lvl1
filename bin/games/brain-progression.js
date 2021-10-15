@@ -1,6 +1,5 @@
 import game from '../../src/index.js';
 import createNum from '../../src/createNum.js';
-import helloFunc from '../../src/cli.js';
 
 function makeQuestion() {
   let num = createNum(100);
@@ -19,6 +18,5 @@ function makeQuestion() {
   return [progressArr, String(rightAnswer)];
 }
 
-const userName = helloFunc();
-console.log('What number is missing in the progression?');
-game(userName, makeQuestion);
+const greetings = 'What number is missing in the progression?';
+game(greetings, makeQuestion);

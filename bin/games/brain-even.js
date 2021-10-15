@@ -1,6 +1,5 @@
 import game from '../../src/index.js';
 import createNum from '../../src/createNum.js';
-import helloFunc from '../../src/cli.js';
 
 function makeQuestion() {
   const num = createNum(100);
@@ -8,7 +7,6 @@ function makeQuestion() {
   return [num, rightAnwser];
 }
 
-const userName = helloFunc();
-console.log('Answer "yes" if the number is even, otherwise answer "no".');
+const greetings = 'Answer "yes" if the number is even, otherwise answer "no".';
 
-game(userName, makeQuestion);
+game(greetings, makeQuestion);
