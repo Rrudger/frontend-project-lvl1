@@ -3,7 +3,7 @@ import createNum from '../../src/createNum.js';
 import helloFunc from '../../src/cli.js';
 
 const signs = ['+', '*', '-', '/'];
-function doQuestion() {
+function makeQuestion() {
   const sign = signs[createNum(4)];
   let num1 = createNum(100);
   let num2 = createNum(100);
@@ -44,4 +44,4 @@ function doQuestion() {
 
 const userName = helloFunc();
 console.log('What is the result of the expression?');
-game(userName, doQuestion);
+game(userName, makeQuestion);
