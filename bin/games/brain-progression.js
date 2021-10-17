@@ -16,7 +16,7 @@ function makeQuestion() {
   const rightIndex = createNum(10);
   const rightAnswer = progressArr[rightIndex];
   progressArr[rightIndex] = '..';
-  return [progressArr, String(rightAnswer)];
+  return [progressArr.join(' '), String(rightAnswer)];
 }
 
 const greetings = 'What number is missing in the progression?';
