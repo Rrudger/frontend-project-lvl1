@@ -4,7 +4,7 @@ import createNum from '../../src/createNum.js';
 
 const signs = ['+', '*', '-', '/'];
 function makeQuestion() {
-  const sign = signs[createNum(4)];
+  const sign = signs[createNum(3)];
   let num1 = createNum(100);
   let num2 = createNum(100);
   if (sign === '/') {
